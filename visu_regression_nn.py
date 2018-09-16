@@ -70,6 +70,7 @@ pl.xlabel('x')
 pl.ylabel('y')
 pl.legend()
 pl.title('Toy regression example')
+pl.show()
 #pl.savefig('imgs/visu_data_reg.eps')
 
 
@@ -105,6 +106,7 @@ pl.xlabel('x')
 pl.ylabel('y')
 pl.legend()
 pl.title('Toy regression example')
+pl.show()
 
 #%% TLOT
 
@@ -136,3 +138,13 @@ pl.xlabel('x')
 pl.ylabel('y')
 pl.legend()
 pl.title('Toy regression example')
+pl.show()
+
+
+
+
+
+
+
+
+

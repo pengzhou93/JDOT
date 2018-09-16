@@ -68,4 +68,19 @@ then
         python "$file"
     fi
 
+elif [ "$1" = "visu_regression_nn.py" ]
+then
+#   ./run.sh  "visu_regression_nn.py" debug
+
+    file="visu_regression_nn.py"
+    line=10
+    if [ $2 = debug ]
+    then
+        insert_debug_string "$file" $line "$debug_str"
+        python "$file"
+        delete_debug_string "$file" $line "$debug_str"
+    else
+        python "$file"
+    fi
+
 fi
