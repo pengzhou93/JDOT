@@ -71,6 +71,7 @@ pl.xlabel('x')
 pl.ylabel('y')
 pl.legend()
 pl.title('Toy regression example')
+pl.show()
 #pl.savefig('imgs/visu_data_reg.eps')
 
 #%% TLOT
@@ -114,7 +115,7 @@ pl.xlabel('x')
 pl.ylabel('y')
 pl.legend()
 pl.title('Toy regression example')
-
+pl.show()
 
 #%%
 seed=1985
@@ -183,6 +184,7 @@ pl.legend(loc=4,fontsize=.7*fs)
 pl.title('Model estimated with JDOT',fontsize=fs)
 
 pl.tight_layout()
+pl.show()
 #pl.savefig('imgs/visu_reg.eps')
 
 #%% compute histograms
@@ -238,7 +240,8 @@ pl.fill(potx[1:],hxt*sx2+xm,color='C1',alpha=0.5)
 pl.fill(posx[1:],hxs*sx2+xm,color='C0',alpha=0.5)
 
 pl.title("Joint distributions, model and marginals")
-pl.savefig('imgs/visu_data_reg.png')
+#pl.savefig('imgs/visu_data_reg.png')
+pl.show()
 #%%
 seed=1985
 np.random.seed(seed)
@@ -332,6 +335,7 @@ pl.legend(loc=4,fontsize=.7*fs)
 pl.title('Model estimated with JDOT',fontsize=fs)
 
 pl.tight_layout(pad=00,h_pad=0)
+pl.show()
 #pl.savefig('imgs/visu_reg2.eps')
-pl.savefig('imgs/visu_reg2.pdf')
-pl.savefig('imgs/visu_reg2.png')
+#pl.savefig('imgs/visu_reg2.pdf')
+#pl.savefig('imgs/visu_reg2.png')
